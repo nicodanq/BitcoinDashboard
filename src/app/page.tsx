@@ -1081,7 +1081,7 @@ export default function BitcoinDashboard() {
                     rare
                   </li>
                   <li>
-                    <strong>Temps estimé :</strong> Un CPU moderne (~1 MH/s) prendrait des millions d'années
+                    <strong>Temps estimé :</strong> Un CPU moderne (~1 MH/s) prendrait des millions d&apos;années
                   </li>
                   <li>
                     <strong>Comparaison :</strong> Les mineurs ASIC atteignent 100+ TH/s (100,000,000x plus rapide)
@@ -1091,15 +1091,15 @@ export default function BitcoinDashboard() {
             </div>
 
             <div className="bg-orange-50 p-4 rounded-lg border border-orange-200">
-              <h3 className="font-semibold text-orange-900 mb-2">💡 Pourquoi c'est éducatif :</h3>
+              <h3 className="font-semibold text-orange-900 mb-2">💡 Pourquoi c&apos;est éducatif :</h3>
               <p className="text-orange-800">
                 Ce simulateur vous permet de comprendre le processus de minage Bitcoin avec de vraies données. Bien que
                 trouver un bloc soit statistiquement improbable avec un CPU, vous pouvez observer :
               </p>
               <ul className="mt-2 space-y-1 list-disc list-inside text-orange-800">
                 <li>Le calcul du Merkle Root des transactions sélectionnées</li>
-                <li>La construction de l'en-tête de bloc selon le protocole Bitcoin</li>
-                <li>L'incrémentation du nonce et le calcul des hash SHA-256</li>
+                <li>La construction de l&apos;en-tête de bloc selon le protocole Bitcoin</li>
+                <li>L&apos;incrémentation du nonce et le calcul des hash SHA-256</li>
                 <li>Votre hashrate personnel et les performances de votre machine</li>
               </ul>
             </div>
@@ -1107,8 +1107,8 @@ export default function BitcoinDashboard() {
             <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
               <h3 className="font-semibold text-blue-900 mb-2">🏭 Dans la réalité :</h3>
               <p className="text-blue-800">
-                Les mineurs professionnels utilisent des fermes de milliers d'ASIC spécialisés, consomment des mégawatts
-                d'électricité, et travaillent en pools pour partager les récompenses. Le réseau Bitcoin global atteint
+                Les mineurs professionnels utilisent des fermes de milliers d&apos;ASIC spécialisés, consomment des mégawatts
+                d&apos;électricité, et travaillent en pools pour partager les récompenses. Le réseau Bitcoin global atteint
                 environ 400 EH/s (400,000,000,000,000,000,000 hash par seconde) !
               </p>
             </div>
